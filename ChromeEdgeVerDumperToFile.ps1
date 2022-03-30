@@ -24,7 +24,7 @@ Write-Output "Google Chrome version: " $CV
 
 
 
-$stuffToWriteToFile = "$hostname,$GCVersionInfo, $GcVersionInfoPt"
+$stuffToWriteToFile = "$hostname,$ChromePath, $CV"
 
 $stuffToWriteToFile  | Out-File -Encoding unicode -Append $catsarecuteandstoreourversioninfoChrome
 $stuffToWriteToFile  | Out-File -Encoding unicode -Append '´n'
